@@ -1,0 +1,135 @@
+#Beginning of Interrogator
+main_memory = []
+age = int(input("What is your age? "))
+while len(age) > 3:
+  bage = int(input("Please enter a valid age. "))
+  if len(bage) <= 3:
+    print("All right, so the next question is..")
+while age.count("a") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("a") = 0:
+    bage = age
+while age.count("b") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("b") = 0:
+    bage = age
+while age.count("c") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("c") = 0:
+    bage = age
+while age.count("d") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("d") = 0:
+    bage = age
+while age.count("e") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("e") = 0:
+    bage = age
+while age.count("f") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("f") = 0:
+    bage = age
+while age.count("g") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("g") = 0:
+    bage = age
+while age.count("h") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("h") = 0:
+    bage = age
+while age.count("i") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("i") = 0:
+    bage = age
+while age.count("j") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("j") = 0:
+    bage = age
+while age.count("k") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("k") = 0:
+    bage = age
+while age.count("l") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("l") = 0:
+    bage = age
+while age.count("m") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("m") = 0:
+    bage = age
+while age.count("n") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("n") = 0:
+    bage = age
+while age.count("o") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("o") = 0:
+    bage = age
+while age.count("p") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("p") = 0:
+    bage = age
+while age.count("q") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("q") = 0:
+    bage = age
+while age.count("r") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("r") = 0:
+    bage = age
+while age.count("s") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("s") = 0:
+    bage = age
+while age.count("t") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("t") = 0:
+    bage = age
+while age.count("u") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("u") = 0:
+    bage = age
+while age.count("v") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("v") = 0:
+    bage = age
+while age.count("w") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("w") = 0:
+    bage = age
+while age.count("x") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("x") = 0:
+    bage = age
+while age.count("y") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("y") = 0:
+    bage = age
+while age.count("z") > 0:
+  bage = (input("Please enter a valid age. ")
+  if bage.count("z") = 0:
+    bage = age
+main_memory.append(age)
+name = (input("What is your full name?"))
+  while len(name) > 100:
+    bname = (input("Please enter a valid name. "))
+    if len(bname) < 100:
+      bname = name
+      
+      print("All right, so the next question is...")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
