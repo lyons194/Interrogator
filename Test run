@@ -1,5 +1,5 @@
 """Beginning of Interrogator
-This verison of Interrogator will ask the user to supply their age, name and address.
+This version of Interrogator will ask the user to supply their age, name and address.
 The code is supposed to screen users' answers to make sure that they enter in an answer that makes sense.
 A good example of this is making sure that the user doesn't answer "ae" for their age, etc.
 """
@@ -129,7 +129,7 @@ if 2 > 1:
                 print("Error: Please enter an age that doesn't include a letter.")
                 age = str(input("What is your age?"))
         main_memory.append(age)
-        print(main_memory)
+        print(main_memory[0])
         #End (for now) of the age section.  The name section will begin now.
         #Began the name section below on January 14, 2018.
         name = str(input("Please enter your name: "))
@@ -197,4 +197,23 @@ if 2 > 1:
                 print("Please enter a name without symbols.")
                 name = str(input("Please enter your name: "))
         #End of name section for now.
-        #Testing Reversion.
+        #Testing reversion
+        #18.0114: Address section will come soon.  I am now going to include an brief "Are you sure?" section for age.
+        print(main_memory)
+        query = str(input("Look carefully... Is all of your information correct? (Y/N)"))
+        if query == "N":
+                print("OK, which answer is wrong? (age/name/address)")
+                query2 = str(input("Please enter the category that is incorrect: "))
+                if query2 == "age":
+                        query3 = str(input("Please enter your correct age: "))
+                        print(query3)
+                        query4 = str(input("Are you sure this is your correct age? (Y/N)"))
+                        while query4 == "N":
+                                query4 = str(input("Please enter your correct age: "))
+                                main_memory[0] = query4
+                                print(main_memory[0])
+                        if query4 == "Y":
+                                print("OK! Glad we sorted that out.")
+                                main_memory[0] = query3
+                                print(main_memory[0])
+                                #End of initial "Are you sure?" section.  This has been for the age variable only.  Other variables will be included in subsequent branches.
