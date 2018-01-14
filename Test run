@@ -1,4 +1,8 @@
-#Beginning of Interrogator
+"""Beginning of Interrogator
+This verison of Interrogator will ask the user to supply their age, name and address.
+The code is supposed to screen users' answers to make sure that they enter in an answer that makes sense.
+A good example of this is making sure that the user doesn't answer "ae" for their age, etc.
+"""
 if 2 > 1:
         main_memory = []
         age = str(input("What is your age? "))
