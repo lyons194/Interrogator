@@ -28,3 +28,24 @@ if 2 > 1:
         while age.count("h") > 0:
                 print("Error: Please enter an age that doesn't include a letter.")
                 age = str(input("What is your age?"))
+        while age.count("i") > 0:
+                print("Error: Please enter an age that doesn't include a letter.")
+                age = str(input("What is your age?"))
+        while age.count("j") > 0:
+                print("Error: Please enter an age that doesn't include a letter.")
+                age = str(input("What is your age?"))
+        while age.count("k") > 0:
+                print("Error: Please enter an age that doesn't include a letter.")
+                age = str(input("What is your age?"))
+        while age.count("l") > 0:
+                print("Error: Please enter an age that doesn't include a letter.")
+                age = str(input("What is your age?"))
+        while age.count("m") > 0:
+                print("Error: Please enter an age that doesn't include a letter.")
+                age = str(input("What is your age?"))
+                
+                
+                
+                
+                
+                
