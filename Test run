@@ -113,24 +113,87 @@ if 2 > 1:
         while age.count(")") > 0:
                 print("Error: Please enter an age that doesn't include a letter.")
                 age = str(input("What is your age?"))
-        while age.count("o") > 0:
+        while age.count("_") > 0:
                 print("Error: Please enter an age that doesn't include a letter.")
                 age = str(input("What is your age?"))
-        while age.count("o") > 0:
+        while age.count("+") > 0:
                 print("Error: Please enter an age that doesn't include a letter.")
                 age = str(input("What is your age?"))
-        while age.count("o") > 0:
+        while age.count("-") > 0:
                 print("Error: Please enter an age that doesn't include a letter.")
                 age = str(input("What is your age?"))
-        while age.count("o") > 0:
+        while age.count("=") > 0:
                 print("Error: Please enter an age that doesn't include a letter.")
                 age = str(input("What is your age?"))
-        while age.count("o") > 0:
+        while age.count("?") > 0:
                 print("Error: Please enter an age that doesn't include a letter.")
                 age = str(input("What is your age?"))
         main_memory.append(age)
         print(main_memory)
         #End (for now) of the age section.  The name section will begin now.
+        #Began the name section below on January 14, 2018.
         name = str(input("Please enter your name: "))
-        
-              
+        while len(name) > 100:
+                print("Please enter a shorter name.")
+                name = str(input("Please enter your name: "))
+        while name.count("!") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+        while name.count("@") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+        while name.count("#") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+        while name.count("$") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))        
+         while name.count("%") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+         while name.count("^") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))       
+         while name.count("&") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))       
+         while name.count("*") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))       
+         while name.count("(") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+         while name.count(")") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))    
+        while name.count("{") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+        while name.count("}") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+        while name.count("[") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+        while name.count("]") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+        while name.count("_") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+        while name.count("=") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+        while name.count(";") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+        while name.count("|") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+        while name.count("\") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+        while name.count("/") > 0:
+                print("Please enter a name without symbols.")
+                name = str(input("Please enter your name: "))
+        #End of name section for now.
